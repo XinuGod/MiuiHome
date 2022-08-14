@@ -107,39 +107,39 @@ class XposedInit : IXposedHookLoadPackage, IXposedHookZygoteInit {
         ModifyBlurLevel().init()  // 后台模糊级别
         EnableSmoothAnimation().init()  // 平滑动画
         EnableBlurWhenOpenFolder().init()  // 文件夹模糊
-        EnableMamlDownload().init()  // 水波纹下载
-        EnableClockGadget().init()  // 时钟常显
-        ModifyAnimDurationRatio().init()  // 手势动画速度
-        EnableHideStatusBarWhenEnterRecents().init()  // 后台隐藏状态栏
-        EnableRecentsViewHorizontal().init()  // 启用横屏后台
+//        EnableMamlDownload().init()  // 水波纹下载
+//        EnableClockGadget().init()  // 时钟常显
+//        ModifyAnimDurationRatio().init()  // 手势动画速度
+//        EnableHideStatusBarWhenEnterRecents().init()  // 后台隐藏状态栏
+//        EnableRecentsViewHorizontal().init()  // 启用横屏后台
         DisableRecentsViewWallpaperDarken().init()  // 取消壁纸压暗
-        ModifyHideWidgetTitles().init()  // 隐藏小部件标题
-        AllowWidgetToMinus().init()  // 允许安卓小部件移动到负一屏
-        AlwaysShowMIUIWidget().init()  // 在安卓小部件中显示MIUI小部件
-        ModifyTaskVertical().init()  // 平铺后台卡片大小
-        ModifyTaskHorizontal().init()  // 瀑布后台卡片大小
-        EnableSimpleAnimation().init()  // 简单动画
-        ModifyInfiniteScroll().init()  // 桌面无限滚动
-        ModifyCloseFolderOnLaunch().init()  // 自动关闭文件夹
-        ModifyShowDockIconTitles().init()  // 显示底栏应用标题
+//        ModifyHideWidgetTitles().init()  // 隐藏小部件标题
+//        AllowWidgetToMinus().init()  // 允许安卓小部件移动到负一屏
+//        AlwaysShowMIUIWidget().init()  // 在安卓小部件中显示MIUI小部件
+//        ModifyTaskVertical().init()  // 平铺后台卡片大小
+//        ModifyTaskHorizontal().init()  // 瀑布后台卡片大小
+//        EnableSimpleAnimation().init()  // 简单动画
+//        ModifyInfiniteScroll().init()  // 桌面无限滚动
+//        ModifyCloseFolderOnLaunch().init()  // 自动关闭文件夹
+//        ModifyShowDockIconTitles().init()  // 显示底栏应用标题
         EnableDockIconShadow().init()  // 图标阴影、倒影
         AllowAllAppsToUseSmallWindow().init()  // 允许所有应用作为小窗使用
-        EnableLowEndDeviceUseMIUIWidgets().init()  // 允许低端机使用MIUI小部件
+//        EnableLowEndDeviceUseMIUIWidgets().init()  // 允许低端机使用MIUI小部件
         DisableRecommendServer().init() // 文件夹推荐广告
-        ModifyHideSeekPoints().init()  // 隐藏页面指示器
+//        ModifyHideSeekPoints().init()  // 隐藏页面指示器
         ModifyCategory().init()  // 抽屉相关
         ModifyFolderColumnsCount().init()  // 文件夹排列数
-        ModifyIconTitleFontSize().init()  // 应用标题文本大小
+//        ModifyIconTitleFontSize().init()  // 应用标题文本大小
         ModifyDoubleTapToSleep().init()  // 双击锁屏
-        ModifyUnlockHotseatIcon().init()  // 解除底栏图标数量限制
+//        ModifyUnlockHotseatIcon().init()  // 解除底栏图标数量限制
         HookSystemProperties().init()  // Prop相关
         ModifyBlurRadius().init()  // 模糊半径
-        ModifyIconTitleFontColor().init()  // 应用标题文本颜色
+//        ModifyIconTitleFontColor().init()  // 应用标题文本颜色
         AlwaysBlurWallpaper().init()  // 始终模糊壁纸
-        ModifyRecents().init()  // 后台元素相关
-        ModifyIconTitleTopMargin().init()  // 应用图标与标题距离
-        ModifyShortcutItemCount().init()  // 解除Shortcut数量限制
-        ModifyPadA12DockBlur().init()  // 安卓12平板Dock模糊
+//        ModifyRecents().init()  // 后台元素相关
+//        ModifyIconTitleTopMargin().init()  // 应用图标与标题距离
+//        ModifyShortcutItemCount().init()  // 解除Shortcut数量限制
+//        ModifyPadA12DockBlur().init()  // 安卓12平板Dock模糊
         EnableFolderIconBlur().init()  //安卓12小文件夹模糊
         ModifyAppReturnBlur().init()  // 应用返回桌面模糊
         ModifyDockHook().init()  // 安卓12底栏设置
