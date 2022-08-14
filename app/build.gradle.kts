@@ -14,8 +14,8 @@ android {
         applicationId = "com.yuk.miuihome"
         minSdk = 29
         targetSdk = 33
-        versionCode = 4311
-        versionName = "4.3.1" + (getGitHeadRefsSuffix(rootProject))
+        versionCode = 432
+        versionName = "4.3.2" + (getGitHeadRefsSuffix(rootProject))
     }
     val properties = Properties()
     runCatching {
